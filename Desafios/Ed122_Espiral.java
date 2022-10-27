@@ -1,7 +1,7 @@
 //ED122
 import java.util.Scanner;
 
-public class Espiral_ED122{
+public class Ed122_Espiral{
 
   public static void main(String[] args){
     Scanner stdin = new Scanner(System.in);
