@@ -11,12 +11,9 @@ public class Pizza_ED243{
       int cod = stdin.nextInt();
       non_ingredienti.add(cod);
     }
-    //System.out.println("---------"+non_ingredienti);
     int p = stdin.nextInt(); // numero di pizze
-    //System.out.println("---------"+p);
     int output= p,k,flag=0;
     for (int i=0;i<p;i++) {
-      //System.out.println("......."+i);
       k = stdin.nextInt(); // numero di ingredienti in ogni pizza
       for (int j=0;j<k;j++){
         int b = stdin.nextInt(); // codi di ingredienti
